@@ -16,7 +16,7 @@ const routes = [
       } else {
         next('/todo');
       }
-    }
+    },
   },
   {
     path: '/todo',
@@ -28,7 +28,7 @@ const routes = [
       } else {
         next('/');
       }
-    }
-  }
+    },
+  },
 ];
 export default new Router({ mode: 'history', routes });

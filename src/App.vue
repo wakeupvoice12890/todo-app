@@ -12,15 +12,13 @@
 </template>
 
 <script>
-import ThemeChange from '@/components/ChangeTheme/changeTheme';
-import LanguageChange from '@/components/ChangeLanguage/changeLanguage';
+import ThemeChange from '@/components/ChangeTheme/changeTheme.vue';
 import HeaderComponent from '@/components/Header/header.vue';
 
 export default {
   name: 'App',
   components: {
     ThemeChange,
-    LanguageChange,
     HeaderComponent,
   },
   computed: {
@@ -29,8 +27,8 @@ export default {
     },
     authenticated() {
       return this.$store.getters.isAuthenticated;
-    }
-  }
+    },
+  },
 };
 </script>
 
