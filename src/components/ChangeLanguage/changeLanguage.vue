@@ -2,7 +2,7 @@
   <div>
     <h2>{{ $t('changeLanguage')}}</h2>
     <select v-model="$i18n.locale" class="language-select">
-      <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+      <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang | Uppercase }}</option>
     </select>
   </div>
 </template>
