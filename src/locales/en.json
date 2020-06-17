@@ -1,0 +1,17 @@
+{
+    "title": "Todo - Application",
+    "btn": {
+        "all" : "All",
+        "active": "Active",
+        "completed": "Completed",
+        "clearCompleted": "Clear Completed"
+    },
+    "changeTheme" : "Change Theme",
+    "changeLanguage": "Change Language",
+    "itemLeft" : "items left",
+    "inputMessage": "What is next in your Todo list",
+    "checkAll" : "Check All....",
+    "welcome": "Welcome",
+    "home": "Home",
+    "logout": "Logout"
+}

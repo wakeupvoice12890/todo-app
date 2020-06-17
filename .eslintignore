@@ -1,0 +1,11 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/src/components/
+/src/store/
+/src/i18n.js
+/src/config/private.js
+/src/config/core.js
+/src/config/localSession.js

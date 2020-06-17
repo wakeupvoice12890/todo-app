@@ -1,0 +1,17 @@
+{
+    "title": "Todo - अनुप्रयोग",
+    "btn": {
+        "all" : "प्रत्येक",
+        "active": "सक्रिय",
+        "completed": "पूरा किया हुआ",
+        "clearCompleted": "पूरा हो गया"
+    },
+    "changeTheme" : "Theme बदलें",
+    "changeLanguage": "भाषा बदलें",
+    "itemLeft" : "items बचे हैं",
+    "inputMessage": "आपकी Todo सूची में आगे क्या है....",
+    "checkAll" : "सभी की Select करो",
+    "welcome": "स्वागत",
+    "home": "होम पेज",
+    "logout": "लॉग आउट"
+}
